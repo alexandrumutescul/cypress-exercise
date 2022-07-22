@@ -1,5 +1,5 @@
 {
-  "name": "siemens-uat",
+  "name": "cypress-uat",
   "version": "1.0.0",
   "description": "E2e automated tests using cypress",
   "main": "index.js",
