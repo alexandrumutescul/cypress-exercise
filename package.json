@@ -1,0 +1,23 @@
+{
+  "name": "siemens-uat",
+  "version": "1.0.0",
+  "description": "E2e automated tests using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandru-Raul Mutescul",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^1.6.2",
+    "prettier": "^2.2.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "commonPath": "cypress/specs/common/",
+    "stepDefinitions": "cypress/specs"
+  }
+}

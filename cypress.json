@@ -1,0 +1,28 @@
+{
+  "baseUrl": "https://ancabota09.wixsite.com/intern",
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 16000,
+  "experimentalFetchPolyfill": false,
+  "experimentalInteractiveRunEvents": false,
+  "experimentalSourceRewriting": false,
+  "testFiles": ["*.feature"],
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "pageLoadTimeout": 120000,
+  "includeShadowDom": true,
+  "reporterOptions": {
+    "charts": true,
+    "overwrite": false,
+    "json": true,
+    "html": false,
+    "filePrefix": ""
+  },
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/specs",
+  "supportFile": "cypress/support/index.js",
+  "trashAssetsBeforeRuns": true,
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  }
+}
