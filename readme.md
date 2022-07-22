@@ -1,3 +1,3 @@
-*** To install dependencies:
+*** To install dependencies ***
 
 npm install
